@@ -65,5 +65,4 @@ MONGO_INITDB_ROOT_PASSWORD=example
 MONGO_INITDB_DATABASE=webapi
 DATABASE_URI=mongodb://root:example@mongo:27017/webapi?authSource=admin
 ---
-
 **Profitez de votre exploration des mammifères avec notre application Dockerisée ! 🐾✨**
