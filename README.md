@@ -9,8 +9,8 @@ Assurez-vous d'avoir Docker installé sur votre machine.
 
 1. Clonez ce référentiel sur votre machine locale :
     ```bash
-    git clone <URL_DU_REPOSITORY_GIT>
-    cd <NOM_DU_REPERTOIRE>
+    git clone https://github.com/Artemis-IA/UKWildlifeTracker-DockerEdition.git
+    cd ./UKWildlifeTracker-DockerEdition
     ```
 2. Décompressez le CSV contenu dans Mammal.zip et mettez le dans le répertoire ./mongo_seed
 
