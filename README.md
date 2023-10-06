@@ -58,6 +58,12 @@ L'application Streamlit est accessible à l'adresse `http://localhost:8501`.
 
 - Assurez-vous d'avoir les données nécessaires dans le fichier CSV (`National Mammal Atlas Project Clean.csv`) pour que l'application fonctionne correctement.
 - Les données sont accessibles via l'API FastAPI et peuvent être visualisées avec l'application Streamlit.
+- Voici les credentials par défaut du dotenv :
+./.env  
+MONGO_INITDB_ROOT_USERNAME=root
+MONGO_INITDB_ROOT_PASSWORD=example
+MONGO_INITDB_DATABASE=webapi
+DATABASE_URI=mongodb://root:example@mongo:27017/webapi?authSource=admin
 
 ---
 
