@@ -11,15 +11,16 @@ Assurez-vous d'avoir Docker installé sur votre machine.
     git clone <URL_DU_REPOSITORY_GIT>
     cd <NOM_DU_REPERTOIRE>
     ```
+2. Décompressez le CSV contenu dans Mammal.zip et mettez le dans le répertoire ./mongo_seed
 
-2. Créez un fichier `.env` dans le répertoire racine avec les variables d'environnement nécessaires :
+3. Créez un fichier `.env` dans le répertoire racine avec les variables d'environnement nécessaires :
     ```plaintext
     MONGO_INITDB_ROOT_USERNAME=root
     MONGO_INITDB_ROOT_PASSWORD=example
     MONGO_INITDB_DATABASE=webapi
     ```
 
-3. Construisez et exécutez les containers Docker en utilisant Docker Compose :
+4. Construisez et exécutez les containers Docker en utilisant Docker Compose :
     ```bash
     docker-compose up --build
     ```
