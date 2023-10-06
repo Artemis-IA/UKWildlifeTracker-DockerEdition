@@ -60,7 +60,7 @@ L'application Streamlit est accessible à l'adresse `http://localhost:8501`.
 - Les données sont accessibles via l'API FastAPI et peuvent être visualisées avec l'application Streamlit.
 - Voici les credentials par défaut du dotenv :
 ./.env
-    ```bash
+    ```
 MONGO_INITDB_ROOT_USERNAME=root
 MONGO_INITDB_ROOT_PASSWORD=example
 MONGO_INITDB_DATABASE=webapi
