@@ -1,9 +1,9 @@
-# Projet Docker : 🐾 Mammals API avec MongoDB, FastAPI et Streamlit 🐬🦇
+# Projet Docker : Mammifères du Royaume-Uni - API avec MongoDB, FastAPI et client Streamlit 🐬🦇
 
 
 Ce projet Docker contient trois containers : un MongoDB pour stocker les données sur les mammifères, un serveur FastAPI pour fournir une API pour accéder à ces données, et une application Streamlit pour visualiser les observations des mammifères sur une carte. 🚀
 
-## Comment Démarrer 🛠️
+## Comment Démarrer 🐾
 
 Assurez-vous d'avoir Docker installé sur votre machine.
 
