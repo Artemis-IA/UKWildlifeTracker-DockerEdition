@@ -13,9 +13,9 @@ Assurez-vous d'avoir Docker installé sur votre machine.
     cd ./UKWildlifeTracker-DockerEdition
     ```
 2. Décompressez le CSV contenu dans Mammal.zip et mettez le dans le répertoire ./mongo_seed
+La source du dataset original est la suivante: https://www.kaggle.com/datasets/scarfsman/data-resource-national-mammal-atlas-project
 
-
-4. Créez un fichier `.env` dans le répertoire racine avec les variables d'environnement nécessaires :
+3. Créez un fichier `.env` dans le répertoire racine avec les variables d'environnement nécessaires :
     ```plaintext
     MONGO_INITDB_ROOT_USERNAME=root
     MONGO_INITDB_ROOT_PASSWORD=example
@@ -24,7 +24,7 @@ Assurez-vous d'avoir Docker installé sur votre machine.
     ```
     
 
-5. Construisez et exécutez les containers Docker en utilisant Docker Compose :
+4. Construisez et exécutez les containers Docker en utilisant Docker Compose :
     ```bash
     docker-compose up --build
     ```
